@@ -4,9 +4,6 @@ public class RemoveA {
 
 	public String removeA(String string) {
 		String ans = string;
-		if(string.length() == 0) {
-			ans ="";
-		}
 		if(string.length() >= 1 && (string.charAt(0) == 'A' || string.charAt(0) == 'a')) {
 			ans = string.substring(1);
 		}
